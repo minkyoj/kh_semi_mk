@@ -38,8 +38,8 @@
             text-align: center;
         }
         #noticeList {
-            display: flex;
-          justify-content: center;
+            display: inline-block;
+            justify-content: center;
         }
         hr {
             width: 800px;
@@ -63,9 +63,9 @@
 <div id="wrap">
     <br><br>
     <div id="notice">
-    <h1 class="foot"><b>공지사항</b></h1>
+    <h1 class="foot"><b>1:1 문의</b></h1>
     <br>
-    <h6>- 오늘의식탁 운영관련 글을 공지하는 '공지사항' 페이지입니다.</h6>
+    <h6>- 회원님들의 궁금한 점을 등록하여 답변받을 수 있는 '1:1문의' 페이지입니다.</h6>
     <br>
     <hr>
     <br><br>
@@ -74,74 +74,86 @@
             <thead>
                 <tr>
                     <th style="width: 10%;">글번호</th>
-                    <th style="width: 15%;">분류</th>
-                    <th style="width: 55%;">제목</th>
-                    <th style="width: 20%;">작성일</th>
+                    <th style="width: 50%;">제목</th>
+                    <th style="width: 20%;">답변여부</th>
+                    <th style="width: 10%;">작성자</th>
+                    <th style="width: 10%;">작성일</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>x</td>
-                    <td>xx</td>
                     <td style="text-align: left;"><a href="#">xxxx</a></td>
+                    <td>xx</td>
+                    <td>xx</td>
                     <td>xx</td>
                 </tr>
                 <tr>
                     <td>x</td>
-                    <td>xx</td>
                     <td style="text-align: left;"><a href="#">xxxx</a></td>
+                    <td>xx</td>
+                    <td>xx</td>
                     <td>xx</td>
                 </tr>
                 <tr>
                     <td>x</td>
+                    <td style="text-align: left; color: gray;">비밀글입니다.</td>
                     <td>xx</td>
-                    <td style="text-align: left;"><a href="#">xxxx</a></td>
                     <td>xx</td>
-                </tr>
-                <tr>
-                    <td>x</td>
-                    <td>xx</td>
-                    <td style="text-align: left;"><a href="#">xxxx</a></td>
                     <td>xx</td>
                 </tr>
                 <tr>
                     <td>x</td>
-                    <td>xx</td>
                     <td style="text-align: left;"><a href="#">xxxx</a></td>
+                    <td>xx</td>
+                    <td>xx</td>
                     <td>xx</td>
                 </tr>
                 <tr>
                     <td>x</td>
+                    <td style="text-align: left; color: gray;">비밀글입니다.</td>
                     <td>xx</td>
-                    <td style="text-align: left;"><a href="#">xxxx</a></td>
                     <td>xx</td>
-                </tr>
-                <tr>
-                    <td>x</td>
-                    <td>xx</td>
-                    <td style="text-align: left;"><a href="#">xxxx</a></td>
                     <td>xx</td>
                 </tr>
                 <tr>
                     <td>x</td>
+                    <td style="text-align: left; color: gray;">비밀글입니다.</td>
                     <td>xx</td>
-                    <td style="text-align: left;"><a href="#">xxxx</a></td>
                     <td>xx</td>
-                </tr>
-                <tr>
-                    <td>x</td>
-                    <td>xx</td>
-                    <td style="text-align: left;"><a href="#">xxxx</a></td>
                     <td>xx</td>
                 </tr>
                 <tr>
                     <td>x</td>
+                    <td style="text-align: left; color: gray;">비밀글입니다.</td>
                     <td>xx</td>
+                    <td>xx</td>
+                    <td>xx</td>
+                </tr>
+                <tr>
+                    <td>x</td>
                     <td style="text-align: left;"><a href="#">xxxx</a></td>
+                    <td>xx</td>
+                    <td>xx</td>
+                    <td>xx</td>
+                </tr>
+                <tr>
+                    <td>x</td>
+                    <td style="text-align: left;"><a href="#">xxxx</a></td>
+                    <td>xx</td>
+                    <td>xx</td>
+                    <td>xx</td>
+                </tr>
+                <tr>
+                    <td>x</td>
+                    <td style="text-align: left;"><a href="#">xxxx</a></td>
+                    <td>xx</td>
+                    <td>xx</td>
                     <td>xx</td>
                 </tr>
             </tbody>
         </table>
+        <button type="button" class="btn btn-secondary" style="margin-left: 90%;">글쓰기</button>
     </div>
     
     <div class="m-4" id="paging">
