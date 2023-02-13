@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h1 class="text-center">게시글 상세정보</h1>
+    <div class="card">
+      <div class="card-header">
+        <h2 id="title"></h2>
+      </div>
+      <div class="card-body">
+        <p><strong>작성자: </strong><span id="author"></span></p>
+        <p><strong>작성일: </strong><span id="date"></span></p>
+        <hr>
+        <p id="body"></p>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+  const post = {
+    title: "게시글 제목",
+    author: "작성자",
+    date: "2022-01-01",
+    body: "게시글 내용"
+  };
+  
+  document.querySelector("#title").textContent = post.title;
+  document.querySelector("#author").textContent = post.author;
+  document.querySelector("#date").textContent = post.date;
+  document.querySelector("#body").textContent = post.body;
+  </script>
+      
+    
+</body>
+</html>
